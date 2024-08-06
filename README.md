@@ -24,12 +24,14 @@ It's a CRUD appplication based on django for backend and react for frontend. Fir
   -Then for backend setup run
   ```
   django-admin startproject backend
+  cd backend
   python manage.py startapp api
   python manage.py runserver
   ```
   -And for frontend run
   ```
-  npm create vite@latest -- --template react
+  npm create vite@latest frontend -- --template react
+  cd frontend
   npm run dev
   ```
 
