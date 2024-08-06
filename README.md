@@ -9,7 +9,8 @@ It's a CRUD appplication based on django for backend and react for frontend. Fir
 
 - [@AnjaliChauhan](https://github.com/2511anjali/Book-Your-Book)
 
-  ##Setup
+
+ ##Setup
   -First you need to create a root directory and create a virtual environment inside it and activate it
   ```
   python -m venv env
