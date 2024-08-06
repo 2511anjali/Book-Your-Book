@@ -9,6 +9,29 @@ It's a CRUD appplication based on django for backend and react for frontend. Fir
 
 - [@AnjaliChauhan](https://github.com/2511anjali/Book-Your-Book)
 
+  ##Setup
+  -First you need to create a root directory and create a virtual environment inside it and activate it
+  ```
+  python -m venv env
+  env/Scripts/activate
+  ```
+  Then create a requirements.txt file as mentioned in frontend directory and run
+  ```
+  pip install -r requirements.txt
+  ``` 
+  it will install all the required packages.
+  -Then for backend setup run
+  ```
+  django-admin startproject backend
+  python manage.py startapp api
+  python manage.py runserver
+  ```
+  -And for frontend run
+  ```
+  npm create vite@latest -- --template react
+  npm run dev
+  ```
+
 
 ## Installation
 Install the project from the github repo - https://github.com/2511anjali/Book-Your-Book
